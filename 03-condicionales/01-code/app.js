@@ -32,22 +32,11 @@ else if(color === 'morado'){
 else{
     console.log('no se que hacer')
 }  */
-let edad = prompt('Edad');
+
+/* let edad = prompt('Edad');
 let nombre = prompt('Nombre').toLowerCase();
 
-/* if(edad >= 18 && nombre){
-    console.log('Puede ingresar a la discoteca')
-}
-else if(nombre === 'Mario' && edad >= 18 ){
-    console.log('Puede ingresar al VIP')
-}
-else if (nombre === 'carlos' && edad >= 18){
-    console.log('Puedes ingresar al VIP')
-}
-else{
-    console.log('¡NO! puede ingresar')
-}
-*/
+
 
 
 if(edad >= 18  && nombre === 'carlos' ){
@@ -61,6 +50,29 @@ else if(edad >= 18){
 }
 else{
     console.log('¡NO! puede ingresar')
+}
+ */
+// piedra-papel-tijera//
+
+let playeruno = prompt('piedra-papel-tijera, elige una opcion').toLowerCase();
+let playerdos = prompt('jugador dos elije una opcion').toLowerCase();
+
+if(playeruno === playerdos){
+    console.log ("empate") 
+
+}
+else if(
+    (playeruno === 'piedra' && playerdos === 'tijera') ||
+    (playeruno === 'papel' && playerdos === 'piedra') || 
+    (playeruno === 'tijera' && playerdos === 'papel')
+) 
+{
+    console.log('gana playeruno');
+    
+}
+else{
+    console.log('gana playerdos');
+ 
 }
 
 
