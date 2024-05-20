@@ -33,6 +33,7 @@ else{
     console.log("datos insuficientes")
 } */
 
+
 //punto numero 3
 
 /* let estatura = prompt("Ingrese su estatura");
@@ -49,7 +50,6 @@ else {
     console.log(" No cumples con los requisitos.");
 }
  */
-
 
 // punto numero 4
 /* 
@@ -91,6 +91,9 @@ else{
 
 // pregunta 5
 alert = ("listado de frutas disponibles:\n-manzana\n-naranja\n-banana\n-pera\n-kiwi\n-uva");
+let frutas = prompt ('ingrese la fruta').toLowerCase();
+let cantidad = prompt('ingresar cantidad');  
+
 let precio = {
     manzana: 10,
     naranja: 15,
@@ -98,9 +101,7 @@ let precio = {
     pera: 25,
     kiwi: 30,
     uva: 35,
-  };
-let cantidad = prompt('ingresar cantidad');  
-let frutas = prompt ('ingrese la cantidad que desea comprar');
+};
 
 let valorunidad = valores[frutas];
 let total = valorunidad*cantidad;
