@@ -35,7 +35,7 @@ else{
 
 //punto numero 3
 
-let estatura = prompt("Ingrese su estatura");
+/* let estatura = prompt("Ingrese su estatura");
 let velocidad = prompt("Ingrese su velocidad");
 let edad = prompt("Ingrese su edad");
 
@@ -48,13 +48,61 @@ else if (estatura >= 180 && velocidad>= 15 && edad >= 18){
 else {
     console.log(" No cumples con los requisitos.");
 }
+ */
 
 
 // punto numero 4
+/* 
+let cantidad;
+let precio;
+let descuento1;
+let descuento2;
+let descuento3;
+let compra;
+let pagar1;
+let pagar2;
+let pagar3;
+cantidad = prompt('ingrese la cantidad');
+precio = 100;
+compra = precio*cantidad;
+descuento1 =compra*(10/100);
+descuento2 =compra*(20/100);
+descuento3 =compra*(40/100);
 
-let cantidadEscritorios = prompt("Ingrese la cantidad de escritorios comprados:");
-let precioPorEscritorio = 100; 
-let descuento = 0;
-let totalAPagar = cantidadEscritorios * precioPorEscritorio - descuento;
+pagar1 = (parseFloat (compra - descuento1));
+pagar2 = (parseFloat (compra - descuento2));
+pagar3 = (parseFloat (compra - descuento3));
+if(cantidad >=1 && cantidad <=5){
+    console.log ('descuendo es:' + descuento1);
+    console.log ('el total es:'+pagar1)
+}
+else if (cantidad >=6 && cantidad <=9){
+    console.log ('descuendo es:' + descuento2);
+    console.log ('el total es:'+pagar2)
+}
+else if(cantidad >=10){
+    console.log ('descuendo es:' + descuento3);
+    console.log ('el total es:'+pagar3)
+}
+else{
+    console.log ('fallo de datos ಠ_ಠ');
+    
+} */
 
+// pregunta 5
+alert = ("listado de frutas disponibles:\n-manzana\n-naranja\n-banana\n-pera\n-kiwi\n-uva");
+let precio = {
+    manzana: 10,
+    naranja: 15,
+    banana: 20,
+    pera: 25,
+    kiwi: 30,
+    uva: 35,
+  };
+let cantidad = prompt('ingresar cantidad');  
+let frutas = prompt ('ingrese la cantidad que desea comprar');
 
+let valorunidad = valores[frutas];
+let total = valorunidad*cantidad;
+
+  
