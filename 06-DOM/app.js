@@ -1,4 +1,4 @@
-const pantalla = document.getElementById('titulo');
+/* const pantalla = document.getElementById('titulo');
 const pantalla2 = document.getElementById('padre');
 const miBtn = document.getElementById('btn');
 
@@ -20,7 +20,7 @@ miBtn.addEventListener('click', function(){
 console.log(pantalla)
 console.log(miBtn)
 
-
+ */
 /* let p ={
 
     style: {
@@ -33,3 +33,36 @@ console.log(miBtn)
 }
 
 p.style.color = 'blue'; */
+
+//contador
+//1. captura variables
+const contador = document.getElementById('contador');
+const menos = document.getElementById('menos');
+const reset = document.getElementById('reset');
+const mas = document.getElementById('mas');
+let i = 0;
+//2. creacion de funciones
+function decrementar(){
+   if(i>0){
+     i--;
+     contador.innerText = i;
+   }
+}
+function resetear(){
+    i=0
+    contador.innerText = i;
+}
+function incrementar(){
+    if (i < 20){
+     i++;
+     contador.innerText = i;
+    }
+}
+
+menos.addEventListener('click', decrementar);
+reset.addEventListener('click',resetear);
+mas.addEventListener('click', incrementar);
+
+
+
+
