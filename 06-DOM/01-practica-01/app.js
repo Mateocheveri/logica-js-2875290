@@ -28,7 +28,7 @@ function pintarCaja (e){
 }
 
 //3.eventos
-botonesColores[0].addEventListener('click',pintarCaja);
-botonesColores[1].addEventListener('click',pintarCaja);
-botonesColores[2].addEventListener('click',pintarCaja);
-botonesColores[3].addEventListener('click',pintarCaja);
+botonesColores[0].addEventListener('click', pintarCaja);
+botonesColores[1].addEventListener('click', pintarCaja);
+botonesColores[2].addEventListener('click', pintarCaja);
+botonesColores[3].addEventListener('click', pintarCaja);
