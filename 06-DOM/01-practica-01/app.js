@@ -15,8 +15,8 @@ miInput.addEventListener('click',cambiarValue)
 //1. variables
 
 const CajaColor = document.getElementById('caja')
-const botonesColores = document.querySelectorAll('btnColores')   //pertite utilisar selecctores de css
-
+const botonesColores = document.querySelectorAll('.btnColores')   //pertite utilisar selecctores de css..... ¡OJO SIEMPRE PONER UN PUNTO (.) ESTO ES POR QUE SI NO LO TIENE NO PUEDE COPILAR!!!!!!!!!!!!!!!!!!
+// querySelectorAll y querySelector se usa para llamar diferentes clases, la diferencia es que ALL trae a muchas y la otra solo a una.
 console.log(CajaColor)
 console.log(botonesColores)
 
@@ -32,3 +32,36 @@ botonesColores[0].addEventListener('click', pintarCaja);
 botonesColores[1].addEventListener('click', pintarCaja);
 botonesColores[2].addEventListener('click', pintarCaja);
 botonesColores[3].addEventListener('click', pintarCaja);
+
+
+//ejercicio mover pelota 
+//1. variables
+
+const pelota = document.querySelector('#circulo');
+const btnMover = document.querySelector('#btnMover');
+let e = 0;
+console.log(pelota)
+console.log(btnMover)
+
+//2. funciones
+
+function mover(){
+
+    if(e == 0){
+        pelota.style.marginLeft = '400px';
+        pelota.style.backgroundColor = 'blue';
+        pelota.style.transitionDuration = '.5s';
+        e=1;
+
+    }
+    else{
+        pelota.style.marginLeft = '0px';
+        pelota.style.backgroundColor = '#2e2e2e';
+        pelota.style.transitionDuration = '.5s';
+        e=0;
+
+    }
+}
+
+//3. eventos
+btnMover.addEventListener('click',mover);
