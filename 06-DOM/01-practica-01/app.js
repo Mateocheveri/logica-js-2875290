@@ -65,3 +65,14 @@ function mover(){
 
 //3. eventos
 btnMover.addEventListener('click',mover);
+
+//ejercicio cambiar imagen
+
+const pantallaImg = document.querySelector('#miImagen');
+const btnCambiar = document.querySelector('#btnCambiar');
+let estado = 0;
+function cambiarImagen(){
+    pantallaImg.setAttribute('src','imagen2.jpg');
+}
+
+btnCambiar.addEventListener('click', cambiarImagen);
