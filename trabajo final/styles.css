@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+header{
+    background-color: rgb(58, 200, 252)
+}
+header .contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .contenedor{
+    max-width: 1400px;
+    margin: 0;
+
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(237,121,2);
+    font-size: 1.6rem;
+}
+header a{
+   padding: 5px 12px;
+   text-decoration: none;
+   font-weight: bold;
+   color: rgb(237,121,2);
+}
+header a:hover{
+    color: rgb(236,28,36);
+}
+/* promociones*/
+
+
+/*    pie de pagina     */
+footer{
+    background-color: #24262b;
+    padding: 10px 0;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer .pie{
+    font-size: 15px;
+    color: white;
+}
+.fa-solid fa-burger{
+    font-size: 40px;
+}
+.social p{
+    font-size: 15px;
+    color: white;
+}
+.social{
+    font-size: 40px;
+    color: white;
+}
+footer  p:hover{
+    color: rgb(237,121,2);
+}
