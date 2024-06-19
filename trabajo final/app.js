@@ -7,7 +7,7 @@ var txt2 = document.getElementsByTagName("p")[0];
 function cambio1 (){
     img.setAttribute("src", "inicio con correcciones.jpg");
     txt1.innerHTML = "imagen 1";
-    txt2.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    txt2.innerHTML = ""
 }
 function cambio2 (){
     img.setAttribute("src", "img2.jpg");
