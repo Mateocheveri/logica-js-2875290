@@ -52,14 +52,12 @@ function mover(){
         pelota.style.backgroundColor = 'blue';
         pelota.style.transitionDuration = '.5s';
         e=1;
-
     }
     else{
         pelota.style.marginLeft = '0px';
         pelota.style.backgroundColor = '#2e2e2e';
         pelota.style.transitionDuration = '.5s';
         e=0;
-
     }
 }
 

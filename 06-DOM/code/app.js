@@ -1,4 +1,4 @@
-/* const pantalla = document.getElementById('titulo');
+const pantalla = document.getElementById('titulo');
 const pantalla2 = document.getElementById('padre');
 const miBtn = document.getElementById('btn');
 
@@ -20,19 +20,19 @@ miBtn.addEventListener('click', function(){
 console.log(pantalla)
 console.log(miBtn)
 
- */
-/* let p ={
-
+ 
+/* 
+let p = {
     style: {
         color: 'rojo',
-        fontSize: '3em',
-    }
-    innerText: 'holamundo'
-    onclick: ''funcion
-
+        fontSize: '3em' 
+    },
+    innerText: 'holamundo',
+    onclick: 'función'
 }
 
 p.style.color = 'blue'; */
+
 
 //contador
 //1. captura variables
