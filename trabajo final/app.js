@@ -124,4 +124,6 @@ function botontex(e){
 
 3: el evento
 btn.addEventListener("click", botontext)
- (al darle clic a el btn resaltara saldra el texto y al volverle a dar a el botno se ocultara el texto);
+ (al darle clic a el btn resaltara saldra el texto y al volverle a dar a el botno se ocultara el texto)
+
+*/
