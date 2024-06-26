@@ -1,15 +1,15 @@
 /* variables */
-var img = document.getElementsByTagName("img")[0];
-var btn = document.getElementsByClassName("btn");
-var txt1 = document.getElementsByTagName("h1")[0];
+var img = document.getElementsByTagName("img")[0];  /* SE LLAMA EL ELEMENTO IMG DE HTML */
+var btn = document.getElementsByClassName("btn");   /* LOS BOTONES QUE HACEN EL CAMBIO */
+var txt1 = document.getElementsByTagName("h1")[0];  /* EL TITULO  */
 
 /* funciones */
 function cambio1 (){
-  img.setAttribute("src", "inicio.jpg");
-  txt1.innerHTML = "INICIO";
+  img.setAttribute("src", "inicio.jpg");/* se llama a la imagen para que SALGA EN LA PANTALLA */
+  txt1.innerHTML = "INICIO";   /* ESTO SE HACE PARA LLAMAR  EL TEXTO Y SE CAMBIE CON CADA BOTON QUE TENGA EL HTML */
 }
 function cambio2 (){
-  img.setAttribute("src", "registrar.jpg");
+  img.setAttribute("src", "registrar.jpg"); 
   txt1.innerHTML = "REGISTRO";
 }
 function cambio3 (){
@@ -53,7 +53,7 @@ function cambio12 (){
   txt1.innerHTML = "SONIDO QUIZ";
 }
 /* evento */
-btn[0].addEventListener("click", cambio1);
+btn[0].addEventListener("click", cambio1); /*AL DARLE CLIC SE  MODIFIARA EL TEXTO Y LA IMAGEN, CON CADA UNO DE LOS EVENTOS*/
 btn[1].addEventListener("click", cambio2);
 btn[2].addEventListener("click", cambio3);
 btn[3].addEventListener("click", cambio4);
